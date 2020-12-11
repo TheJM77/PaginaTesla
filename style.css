@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap');
+
+
+body{
+    /*font-family: 'Miriam Libre', sans-serif;*/
+    margin: 0;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: #94CDD6;
+}
+
+nav.anchototal{
+    background-color: #1A5B6D;
+}
+
+footer.anchototal{
+    background-color: #1A5B6D;
+}
+
+div.M-mitad h3{
+    color: #94CDD6;
+}
+
+.anchototal{
+    width: 100%;
+}
+
+@media screen and (max-width: 600px){
+    
+    img#logotop{
+        width: 8%;
+        position: absolute;
+        left:0%
+    }
+
+    nav.anchototal{
+        position: absolute;
+    }
+
+    p.contenedor{
+        margin-top: 0px;
+    }
+    
+    img#logomid{
+        width: 30%;
+    }
+
+    header{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    article{
+        display: flex;
+        flex-direction: column;
+      justify-content: center;
+    }
+
+    article img{
+        width: 90%;
+        display: block;
+        margin: auto;       
+    }
+
+    h2,h3{
+        text-align: center;
+        color :#94CDD6;
+    } 
+
+    input{
+        width: 90%;
+    }
+
+    #imgcabecera{
+        width: 100%;
+    }
+
+    input#enviar{
+        width: 20%;
+        background-color: #1A5B6D;
+        color: #94CDD6;
+        padding: 10px;
+    }
+
+    section#Contact{
+       width: 90%;
+       text-align: center;
+    }
+
+    article{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    iframe#ytvideo{
+        display: none;
+    }
+    
+    #video2{
+        display:none
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .izquierda{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px){
+
+    img#logotop{
+        width: 5%;
+        position: absolute;
+        left:0%
+    }
+
+    nav.anchototal{
+        position: absolute;
+    }
+
+    div#tesla{
+        width: 100%;
+    }
+
+    body{
+        font-family: 'Miriam Libre', sans-serif;
+    }
+
+    img#logomid{
+        width: 60%;
+        
+    }
+
+    header{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+       transform: translate(-50%,-50%);
+       text-align: center;
+       color: #94CDD6;
+    }
+
+    
+    img#imgcabecera{
+        width: 100%;
+    }
+      
+    article{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    
+
+    div.M-mitad img{
+      width: 90%;
+      margin-top: 20px;
+     
+    }
+
+    div.L-tercio{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    
+    }
+
+    div.M-mitad{
+        width: 50%;
+        
+    }
+    
+    
+    iframe#ytvideo{
+        display: none;
+    }
+
+    
+    #video2{
+        display:none
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .izquierda{
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 1000px){
+
+    body{
+        font-family: 'Miriam Libre', sans-serif;
+    }
+
+    #logotop{
+        width: 3%;
+        position: absolute;
+        left:0%
+    }
+
+    #imgcabecera{
+        display: none;
+    }
+
+    #ytvideo{
+     width: 100%;
+     
+    }
+
+    header{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+       transform: translate(-50%,-50%);
+       text-align: center;
+    }
+
+    #fotohide{
+        display: none;
+    }
+
+    div.L-tercio{
+        width: 33%;
+        padding: 1em;
+        text-align: left;
+    }
+
+    #Exhibition, #Visit, #Contact{
+        display: flex;
+        flex-direction: row;
+        padding-right: 50px;
+        padding-left: 50px;
+        justify-content: center;
+        position: relative;
+      
+    }
+
+    .M-mitad img{
+        width: 80%;
+    }
+
+    .M-mitad iframe{
+        width: 40%;
+    }
+
+    h2{
+        text-align: center;
+        color: #94CDD6;
+        font-size: 3em;
+    }
+
+    #texthide{
+        display: none;
+    }
+
+    #formulario{
+        box-sizing: border-box;
+    }
+
+    div.L-mitad{
+        width: 100%;
+    }
+
+    h3{
+        font-size: 2em;
+    }
+
+    form{
+        display: block;
+        width: 90%;
+    }
+
+    input{
+        width: 100%;
+    }
+
+    h1{
+        color:#94CDD6;
+    }
+
+    .derecha a{
+    padding: 1em;
+    
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .izquierda{
+        text-align: center;
+    }
+
+    footer{
+        display: flex;
+        justify-content: end;
+    }
+
+    #video2{
+        width: 70%;
+    }
+
+    footer a{
+        padding-left: 1em;
+    }
+}
