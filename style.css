@@ -204,6 +204,14 @@ div.M-mitad h3{
         text-align: center;
     }
 
+    input#enviar{
+        width: 20%;
+        background-color: #1A5B6D;
+        color: #94CDD6;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
 }
 
 @media screen and (min-width: 1000px){
@@ -324,5 +332,14 @@ div.M-mitad h3{
 
     footer a{
         padding-left: 1em;
+    }
+
+
+    input#enviar{
+        width: 20%;
+        background-color: #1A5B6D;
+        color: #94CDD6;
+        padding: 10px;
+        margin-bottom: 20px;
     }
 }
